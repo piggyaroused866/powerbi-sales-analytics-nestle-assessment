@@ -1,201 +1,242 @@
-# 📊 Sales Analytics System – Power BI (Nestlé Technical Assessment)
+# 📊 powerbi-sales-analytics-nestle-assessment - Sales insights in one place
 
-![Power BI](https://img.shields.io/badge/Built%20With-Power%20BI-yellow)
-![Data Modeling](https://img.shields.io/badge/Model-Star%20Schema-blue)
-![DAX](https://img.shields.io/badge/Language-DAX-green)
-![Time](https://img.shields.io/badge/Completed-120%20Minutes-red)
+[![Download](https://img.shields.io/badge/Download-Visit%20the%20GitHub%20page-blue?style=for-the-badge&logo=github)](https://github.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment)
 
-A scalable, parameter-driven analytics solution built using **Power BI**, designed to transform raw multi-year sales data into a structured model and executive-ready insights — all under strict time constraints.
+## 🚀 Getting Started
 
----
+This project gives you a Power BI sales analytics solution for Windows. It uses a structured data model, built-in data loading steps, and clear report pages to help you review sales data with less setup.
 
-## 🚨 The Challenge
+Use this README to visit the project page, get the files, and open the report in Power BI Desktop.
 
-The task was to build a complete analytics solution from raw files within **120 minutes**, while handling:
+## 📥 Download the Project
 
-- Multiple data sources (Sales + Dimensions)  
-- Inconsistent formats (dates, IDs)  
-- Power BI limitations (privacy levels, file paths)  
-- Requirements for scalability and portability  
+Open the project page here:
 
-👉 The goal was not just visualization — but building a **robust, reusable BI system**
+[Visit the GitHub repository](https://github.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment)
 
----
+If the page includes a release file or project archive, download it to your Windows PC. Save it to a folder you can find again, such as Downloads or Desktop.
 
-## 💡 The Approach
+## 🪟 Windows Setup
 
-Instead of building a static dashboard, the solution was designed as a **scalable data pipeline within Power BI**:
+This project is built for use on Windows with Power BI Desktop.
 
-- Dynamic ingestion of all sales files  
-- Parameterized architecture for portability  
-- Clean star schema model  
-- Reusable transformation logic  
-- Business-oriented dashboard design  
+### What you need
+- Windows 10 or Windows 11
+- Power BI Desktop
+- Enough free disk space for the project files
+- A stable internet connection if you plan to refresh data from source files
 
----
+### Install Power BI Desktop
+1. Open the Microsoft Store or the official Power BI Desktop download page.
+2. Install Power BI Desktop on your computer.
+3. Wait for the install to finish.
+4. Open Power BI Desktop once before you load the project.
 
-## ⚙️ System Overview
+## 📂 Open the Project
 
-The system processes data end-to-end:
+After you get the files:
 
-1. Loads all sales and dimension data dynamically  
-2. Cleans and standardizes inconsistent fields  
-3. Builds a structured star schema  
-4. Applies DAX measures for business metrics  
-5. Presents insights across multiple analytical views  
+1. Find the project folder on your PC.
+2. Look for the main Power BI file, often a `.pbix` file.
+3. Double-click the file, or open it from Power BI Desktop.
+4. Wait for the report to load.
 
----
+If the project uses supporting files such as CSV, Excel, or folders for source data, keep them in the same location as the report file.
 
-## 🧠 Key Capabilities
+## 🔄 Refresh the Data
 
-<p align="center">
+This solution uses dynamic ingestion and a parameter-based setup. That means the report may connect to data files or folders through Power Query.
 
-🔄 <strong>Dynamic Data Ingestion</strong><br>
-Automatically loads all files from folders. New data is picked up without modifying queries.
+To refresh the data:
 
-<br><br>
+1. Open the report in Power BI Desktop.
+2. Select Refresh on the Home tab.
+3. Wait while Power BI reads the data again.
+4. Check the report pages after the refresh finishes.
 
-⚙️ <strong>Parameterized Architecture</strong><br>
-Portable across machines using dynamic folder paths instead of hardcoded locations.
+If Power BI asks for a file path, point it to the folder that contains the source data files.
 
-<br><br>
+## 📊 What This Project Does
 
-🧱 <strong>Star Schema Modeling</strong><br>
-Optimized data model for performance, scalability, and clarity.
+This Power BI solution is made for sales analysis. It helps you inspect sales data with a clean structure and consistent model.
 
-<br><br>
+### Main parts
+- Sales dashboard pages for quick review
+- Star schema modeling for cleaner reporting
+- Power Query steps for data ingestion
+- DAX measures for totals, trends, and performance checks
+- Data visuals that make patterns easier to spot
 
-🧩 <strong>Reusable Data Transformation</strong><br>
-Custom Power Query function standardizes inconsistent ID formats.
+### Typical questions it can help answer
+- Which products sell most
+- Which areas have the best results
+- How sales change over time
+- Which items bring in the most value
+- Where sales drop or rise
 
-<br><br>
+## 🧱 Data Model
 
-📊 <strong>Advanced Time Intelligence</strong><br>
-YTD, MTD, MAT, and growth metrics powered by a dedicated calendar table.
+The project uses a star schema. This means the data sits in a central fact table with related dimension tables around it.
 
-</p>
+### Why this helps
+- Reports run more cleanly
+- Filters work in a simple way
+- Metrics stay easier to manage
+- The model is easier to extend later
 
----
+### Common tables you may see
+- Sales fact table
+- Date table
+- Product table
+- Customer table
+- Region or territory table
 
-## 📊 Dashboard Views
+## 🔧 How It Works
 
-The report is structured into four analytical layers:
+This project follows a simple flow:
 
-- **Executive Overview** → KPIs and high-level performance  
-- **Time Analysis** → trends, growth, and seasonality  
-- **Product Analysis** → profitability and demand  
-- **Geography Analysis** → regional performance and market share  
+1. Data comes in from a source file or folder.
+2. Power Query cleans and shapes the data.
+3. The model arranges the data into fact and dimension tables.
+4. DAX measures calculate sales values.
+5. Visuals display the results in report pages.
 
----
+This setup helps keep the report stable when data changes.
 
-## 📸 Dashboard Preview
+## 🖥️ Report Features
 
-### 🧭 Executive Overview
-![Executive Dashboard](media/executive-dashboard.png)
+The report may include these sections:
 
-### ⏱️ Time Analysis
-![Time Analysis](media/time-analysis.png)
+- Overview page with key sales numbers
+- Trend charts for month-to-month review
+- Product performance views
+- Region and territory breakdowns
+- Filter panels for fast drill-down
+- KPI cards for quick status checks
 
-### 📦 Product Analysis
-![Product Analysis](media/product-analysis.png)
+## 🧭 How to Use the Report
 
-### 🌍 Geography Analysis
-![Geography Analysis](media/geography-analysis.png)
+1. Open the report in Power BI Desktop.
+2. Use the filters on the side or top of the page.
+3. Click chart bars, lines, or slices to cross-filter the view.
+4. Move through the report pages to compare results.
+5. Use the date filter to review a time range.
 
----
+If you need a fast check, start with the overview page and look at total sales, growth, and top categories.
 
-## 🏗️ Data Architecture
+## 🛠️ Common File Types
 
-The solution follows a **star schema design**:
+You may find these files in the project:
 
-- **Fact Table** → Sales  
-- **Dimension Tables** → Product, Geography, SalesRep, SubCategories, Categories, Calendar  
+- `.pbix` for the Power BI report
+- `.xlsx` for Excel source data
+- `.csv` for flat data files
+- `.json` for parameter or source settings
+- folders that store raw or staged data
 
-This structure enables efficient filtering and scalable analytics.
+Keep the folder layout the same if the report uses linked file paths.
 
----
+## 🔁 Updating the Source Data
 
-## ⚙️ How to Use
+If the project is set up to read new files from a folder:
 
-1. Download and unzip the repository  
+1. Add the new source file to the same folder.
+2. Keep the same column names and file format.
+3. Open the report in Power BI Desktop.
+4. Refresh the data.
+5. Check that the visuals still match your latest data.
 
-2. Open `Preview.pbix`  
+If file names change, you may need to update the source path in Power Query.
 
-3. Go to:
-   File → Options and Settings → Options → Global → Privacy  
+## 📌 Best Practices for Use
 
-   Enable:
-   Always Ignore Privacy Settings  
+- Keep the source data in one folder.
+- Do not rename files unless needed.
+- Use the same column layout in new files.
+- Save a copy before editing the model.
+- Refresh the report after any data update.
+- Check date fields for the correct format.
 
-4. Open:
-   `sales-analytics-template.pbit`
+## 🧪 Expected Behavior on Windows
 
-5. Provide parameters:
-   - SalesFolder → path to `/data/sales`  
-   - DimensionsFolder → path to `/data/dimensions`  
+When you run the project on Windows, you should be able to:
 
-⚠️ Do NOT include quotation marks  
+- Open the report in Power BI Desktop
+- Load the data without manual rebuilds
+- Refresh the model from local files
+- Use report filters and visuals
+- Export pages if needed
 
-6. Click **Load**
+If the report opens but shows blank visuals, refresh the data and check the source file path.
 
----
+## 🧩 Topics Covered
 
-## ⚠️ Key Challenges
+This project includes work related to:
 
-- Power BI privacy restrictions when combining multiple sources  
-- Date parsing inconsistencies across files  
-- Designing dynamic ingestion within strict time constraints  
+- business intelligence
+- dashboard design
+- data analytics
+- data modeling
+- data visualization
+- DAX
+- ETL
+- Power Query
+- Power BI
+- star schema
 
----
+## 📁 Suggested Folder Layout
 
-## 💡 Key Design Decisions
+A simple folder layout can help keep the project easy to use:
 
-- Parameterization to ensure portability  
-- Star schema to improve performance and clarity  
-- Reusable transformations to standardize messy data  
+- `Project`
+  - `Report`
+  - `Data`
+  - `Images`
+  - `Documentation`
 
----
+If the report uses local data, store the input files in the `Data` folder and keep them there.
 
-## 🔄 Future Improvements
+## 🔍 Troubleshooting
 
-- Incremental refresh for large datasets  
-- Additional drill-through analysis  
-- Forecasting and advanced KPIs  
+### Power BI cannot find the data file
+- Make sure the source file is still in the same folder
+- Check that the file name did not change
+- Open Power Query and confirm the path
 
----
+### The report opens with empty visuals
+- Refresh the model
+- Check the date table
+- Confirm that the source data has records
 
-## 📎 Documentation
+### A file will not open
+- Confirm that Power BI Desktop is installed
+- Make sure the file is not blocked by Windows
+- Download the project again if the file looks damaged
 
-- docs/instructions.md → assessment requirements  
-- docs/implementation.md → technical approach  
-- docs/nestle-powerbi-assessment.pdf → original instructions  
+### Filters do not change the visuals
+- Click inside the chart first
+- Check whether cross-filtering is turned on
+- Look for page-level filters
 
----
+## 📎 Download and Run
 
-## 🎥 Demo
+Visit the project page here:
 
-Available in:
-media/demo.mp4
+[https://github.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment](https://github.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment)
 
----
+From that page, download the project files, open the main Power BI report in Power BI Desktop on Windows, and refresh the data before using the dashboard
 
-## 🧠 Why This Project Stands Out
+## 🗂️ File Notes
 
-This is not just a Power BI dashboard.
+If the repository includes a Power BI report file, that file is the main item you need. If it includes source data or helper files, keep them together with the report so the paths stay valid.
 
-It demonstrates:
+If you move the project to another folder or another computer, check the data source settings before you refresh.
 
-- 🧠 System design thinking under time constraints  
-- ⚙️ Real-world data engineering within BI tools  
-- 📊 Business-oriented analytics design  
-- 🔄 Scalable and reusable architecture  
-- 🚀 Ability to deliver under pressure (120 minutes)  
+## 🖱️ Quick Use Steps
 
----
-
-## 🧑‍💻 Author
-
-**Adham Elkhouly**
-
-- Data Analyst @ Nestlé  
-- Focused on Power Platform, BI systems, and scalable data solutions  
+1. Open the GitHub repository
+2. Download the project files
+3. Install Power BI Desktop if needed
+4. Open the `.pbix` file
+5. Refresh the data
+6. Review the dashboard pages
